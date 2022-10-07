@@ -1,0 +1,117 @@
+body {
+  font-size: 15pt;
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 100%;
+}
+
+img {
+  height: 8em;
+  width: 8em;
+  margin-top: .5em;
+  margin-left: .5em;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: #F9AB33;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.box1 {
+  background-color: white;
+  width: 100%;
+  height: 9em;
+}
+
+#nav ul {
+  background-color: blue;
+  width: 100%;
+  height: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 2em;
+  padding-right: 2em;
+}
+
+.box3 {
+  background-color: white;
+  width: 100%;
+  height: 40em;
+}
+
+#footer ul {
+  background-color: blue;
+  width: 100%;
+  height: 9em;
+  padding: 3em 0 3em 2em;
+}
+
+#box5 {
+  background-color: blue;
+  width: 15em;
+  height: 7em;
+  text-align: center;
+}
+
+.box6 {
+  background-color: green;
+  width: 15em;
+  height: 7em;
+}
+
+.box7 {
+  background-color: blue;
+  width: 15em;
+  height: 7em;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#photo {
+  width: 87%;
+  height: 32em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+#text {
+  color: #DC6903;
+}
+
+#about {
+  width: 100%;
+  height: 20em;
+  background-color: floralwhite;
+  margin-left: 1em;
+  color: blue;
+  text-align: center;
+  font-style: 20px;
+}
+#ckc {
+  font-size: 2em;
+}
+#startH {
+  font-size: 3em;
+}
